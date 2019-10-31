@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://localhost/university">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:getAllYearFoundedRequest>
+            <gs:yearFounded>1956</gs:yearFounded>
+        </gs:getAllYearFoundedRequest>
+    </soapenv:Body>
+</soapenv:Envelope>

@@ -43,12 +43,12 @@ public class UniversityRepository {
         universities.put(ku.getYearFounded(),ku);
 
         University uon = new University();
-        ku.setLocation("Westlands");
-        ku.setName("University of Nairobi");
-        ku.setYearFounded("1938");
-        universities.put(ku.getName(),ku);
-        universities.put(ku.getLocation(),ku);
-        universities.put(ku.getYearFounded(),ku);
+        uon.setLocation("Westlands");
+        uon.setName("University of Nairobi");
+        uon.setYearFounded("1938");
+        universities.put(uon.getName(),uon);
+        universities.put(uon.getLocation(),uon);
+        universities.put(uon.getYearFounded(),uon);
     }
 
     public University getUniversityByName(String name){
